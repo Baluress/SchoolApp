@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SchoolApp</string>
+    <string name="menu_grades">Notas</string>
+    <string name="menu_informations">Avisos</string>
+    <string name="calculate">Calcular</string>
+    <string name="calc_result">A média do(a) %1$s é: %2$.1f</string>
+    <string name="positive_grade">O aluno(a) foi aprovado(a)!!</string>
+    <string name="negative_grade">O aluno(a) foi reprovado(a)!</string>
+    <string name="invalid_grade">Nota inválida, informe novos valores</string>
+    <string name="confirm">OK</string>
+    <string name="number_of_grades">Quantas notas deseja inserir para calcular a média?</string>
+    <string name="important_note_1">Reunião de pais e mestres no dia 28/06, lançar notas finais para fechamento do semestre.</string>
+    <string name="important_note_2">Férias marcadas para o dia 30/06 até o dia 01/08.</string>
+    <string name="save">salvar</string>
+    <string name="calc_saved">Registro salvo com sucesso</string>
+    <string name="list_response">%1$s, média: %2$.2f, data: %3$s</string>
+    <string name="delete">Você realmente quer excluir o registro?</string>
+    <string name="search">Buscar</string>
+    <string name="menu_home">Ínicio</string>
+    <string name="other_options">Outras opções</string>
+    <string name="menu_grades_list">Lista de notas</string>
+</resources>

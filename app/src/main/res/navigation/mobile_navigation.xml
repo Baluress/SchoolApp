@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.schoolapp.view.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_grades"
+        android:name="com.example.schoolapp.view.GradesFragment"
+        android:label="@string/menu_grades"
+        tools:layout="@layout/fragment_grades"/>
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="com.example.schoolapp.view.InformationFragment"
+        android:label="@string/menu_informations"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/nav_grades_list"
+        android:name="com.example.schoolapp.view.GradesListFragment"
+        android:label="@string/menu_grades_list"
+        tools:layout="@layout/fragment_grades_list"/>
+
+</navigation>

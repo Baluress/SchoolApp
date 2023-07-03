@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/ic_baseline_menu_book_48"
+            android:title="@string/menu_grades" />
+
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_baseline_event_note_36"
+            android:title="@string/menu_informations" />
+    </group>
+
+    <item android:title="@string/other_options">
+        <menu>
+            <item
+                android:id="@+id/nav_grades_list"
+                android:icon="@drawable/ic_baseline_grade_24"
+                android:title="@string/menu_grades_list"/>
+        </menu>
+    </item>
+
+</menu>
